@@ -1,0 +1,8 @@
+//SDPX-License-Identifier-MIT
+pragma solidity ^0.8.1;
+contract PureView{
+    uint stateVariable=5;
+    function pureFunc(uint a,uint b) public pure returns(uint){
+        return a+b;
+    }
+}
